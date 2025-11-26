@@ -1,0 +1,7 @@
+{
+  "name": "Chef Whiskers",
+  "description": "An AI-powered cat chef assistant that generates recipes from photos or pantry ingredients.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
