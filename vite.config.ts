@@ -6,5 +6,11 @@ export default defineConfig({
   define: {
     // expose process.env.API_KEY to the client build
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
+  },
+  preview: {
+    allowedHosts: ['chefwhiskers.onrender.com']
+  },
+  server: {
+    allowedHosts: ['chefwhiskers.onrender.com']
   }
 });
